@@ -15,7 +15,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import javax.persistence.Lob;
 
 /**
  * The persistent class for the document database table.
@@ -40,7 +39,6 @@ public class Document extends BaseEntity implements Serializable {
   @Column(name = "sailitustahtaeg")
   private Timestamp storageDeadline;
 
-  @Lob
   @Column(name = "sisu")
   private String content;
 
