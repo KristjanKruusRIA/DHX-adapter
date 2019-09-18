@@ -17,9 +17,3 @@ before_install:
 - mv dhx-adapter-server/pom_without_oracle.xml dhx-adapter-server/pom.xml
 install: true
 script: mvn clean verify -q sonar:sonar -Pcoverage -Dsonar.projectKey=myorg_myrepo
-notifications:
-  email:
-    recipients:
-    - rasmus.soot@nortal.com
-    on_success: change
-    on_failure: always
