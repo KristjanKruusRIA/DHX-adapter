@@ -20,6 +20,5 @@ script: mvn clean verify -q sonar:sonar -Pcoverage -Dsonar.projectKey=KristjanKr
 deploy:
   provider: releases
   api_key: "$GITHUB_OAUTH_TOKEN"
-  file: "dhx-adapter-server.war"
   skip_cleanup: true
   draft: true
