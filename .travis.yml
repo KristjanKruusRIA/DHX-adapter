@@ -24,4 +24,6 @@ deploy:
   file: 
   - "/home/travis/.m2/repository/ee/ria/dhx/dhx-adapter-server/*/dhx-adapter-server-*.war"
   skip_cleanup: true
+  on:
+   branch: master
   draft: true
