@@ -22,6 +22,6 @@ deploy:
   api_key: "$GITHUB_OAUTH_TOKEN"
   file_glob: true
   file: 
-  - "/home/travis/.m2/repository/ee/ria/dhx/dhx-adapter-server/1.0.4/*"
+  - "/home/travis/.m2/repository/ee/ria/dhx/dhx-adapter-server/*/dhx-adapter-server-*.war"
   skip_cleanup: true
   draft: true
