@@ -20,6 +20,6 @@ script: mvn clean install -q sonar:sonar -Pcoverage -Dsonar.projectKey=KristjanK
 deploy:
   provider: releases
   api_key: "$GITHUB_OAUTH_TOKEN"
-  file: /home/travis/.m2/repository/ee/ria/dhx/dhx-adapter-server/1.0.4/*
+  file: /home/travis/.m2/repository/ee/ria/dhx/dhx-adapter-server/1.0.4/dhx-adapter-server-1.0.4.war
   skip_cleanup: true
   draft: true
