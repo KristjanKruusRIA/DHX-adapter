@@ -13,7 +13,7 @@
 		<!-- Specifies which configuration resources to use in the build -->
 		<resourceDir>conf/${conf}</resourceDir>
 		<jcabi.aspectj>1.9.2</jcabi.aspectj>
-		<boot.version>1.5.17.RELEASE</boot.version>
+		<boot.version>2.2.1.RELEASE</boot.version>
 	</properties>
 	<modules>
 		<module>dhx-adapter-core</module>
